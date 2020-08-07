@@ -15,19 +15,16 @@ This repository consists of a simple HTML that creates a personal portfolio abou
 
 Clone the repository found at:
 
-Proceed to run the index.html file in your browser.
+https://github.com/brw1820/react-portfolio
 
 ## Usage 
 
 This HTML file provides my personal portfolio, a link to my LinkedIN profile: https://www.linkedin.com/in/brian-warner-60712541/.
 It also includes my GitHub profile: https://github.com/brw1820.
-Portfolio on GitHub: https://github.com/brw1820/homework-02-portfolio
-Deployed Application: https://brw1820.github.io/homework-02-portfolio/
+Portfolio on GitHub: https://github.com/brw1820/react-portfolio
+Deployed Application: https://brw1820.github.io/react-portfolio/
 
-![Test-Application](./Assets/aboutme2.PNG)
-![Test Application](./Assets/Resume1.PNG)
-![Test Application](./Assets/contact1.PNG)
-
+![EXAMPLE](./src/pages/Assets/portfolio1.PNG)
 ## Credits
 
 The provided work was a solo project created as homework for Georgia Tech, Fullstack Flex program.
