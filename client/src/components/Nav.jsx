@@ -4,19 +4,19 @@ import { Link } from "react-router-dom";
 function Nav(props) {
   return (
     <React.Fragment>
-        <ul classNameName="nav nav-tabs">
-      <li classNameName="nav-item">
-        <Link classNameName={props.currentPage === "Home" ? "nav-link active" : "nav-link"} to="/">
+        <ul className="nav nav-tabs">
+      <li className="nav-item">
+        <Link className={props.currentPage === "Home" ? "nav-link active" : "nav-link"} to="/">
           Home
        </Link>
       </li>
-      <li classNameName="nav-item">
-          <Link classNameName={props.currentPage === "Contact" ? "nav-link active" : "nav-link"} to="/contact">
+      <li className="nav-item">
+          <Link className={props.currentPage === "Contact" ? "nav-link active" : "nav-link"} to="/contact">
           Contact
           </Link>
       </li>
-      <li classNameName="nav-item">
-          <Link classNameName={props.currentPage === "Resume" ? "nav-link active" : "nav-link"} to="/resume">
+      <li className="nav-item">
+          <Link className={props.currentPage === "Resume" ? "nav-link active" : "nav-link"} to="/resume">
           Resume
       </Link>
 </li>
