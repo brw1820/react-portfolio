@@ -1,6 +1,6 @@
 import React from "react";
 
-const Projectcard = () => {
+const ProjectCard = (props) => {
   return (
     <div className="card">
       <div className="img-container">
@@ -13,6 +13,9 @@ const Projectcard = () => {
           </li>
           <li>
             <strong>Github Repository:</strong> {props.repo}
+          </li>
+          <li>
+            <strong>Deployed Link:</strong> {props.link}
           </li>
         </ul>
       </div>

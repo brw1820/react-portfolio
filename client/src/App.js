@@ -6,7 +6,8 @@ import Home from "./pages/Home.jsx";
 import Contact from './pages/Contact.jsx';
 import Resume from './pages/Resume.jsx';
 import "./pages/Assets/style.css";
-import Nav from "./components/Nav.jsx"
+import Nav from "./components/Nav.jsx";
+import Projects from "./pages/Projects.jsx"
 
 // const App = () => <SiteContainer />;
 
@@ -24,6 +25,7 @@ return (
       <Route exact path="/contact" component={Contact}/>
       {/* <Route exact path="/about" component={About}/> */}
       <Route exact path="/resume" component={Resume}/>
+      <Route exact path="/projects" component={Projects}/>
     </Switch>
   </Router>
 );

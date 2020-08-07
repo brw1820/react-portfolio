@@ -20,6 +20,11 @@ function Nav(props) {
           Resume
       </Link>
 </li>
+<li className="nav-item">
+          <Link className={props.currentPage === "Projects" ? "nav-link active" : "nav-link"} to="/projects">
+          Projects
+      </Link>
+</li>
     </ul>
     <div className="collapse navbar-collapse" id="navbarNavDropdown">
         <ul className="navbar-nav ml-auto">

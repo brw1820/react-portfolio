@@ -10,7 +10,9 @@ const Contact = () => {
   <div className="row">
     <div className="column">
         <label>Phone: 404-388-6098</label>
+        <div>
         <label>E-Mail: Brw1820@gmail.com</label>
+        </div>
     </div>
   </div>
 </div>

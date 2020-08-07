@@ -1,6 +1,6 @@
 body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    /* background-image: url(/react-portfolio/client/src/pages/Assets/gtpfbg.png); */
+    background-image: url(background.jpg); 
     padding:20px;
   }
   
@@ -23,7 +23,9 @@ body {
       margin-left: center;
   }
 
-  
+  .picture{
+    width:50%;
+  }
 /* Clear floats after the columns */
 .row:after {
   content: "";
